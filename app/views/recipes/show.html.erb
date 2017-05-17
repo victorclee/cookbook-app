@@ -2,7 +2,7 @@
 <h2><%= @recipe.title %></h2>
 <h5>Last Updated on: <%= @recipe.friendly_updated_at %></h5>
 <h4><%= @recipe.chef %></h4>
-<!-- <h5>Prep Time: <%= @recipe.friendly_prep_time %></h5> -->
+
 <h3>Ingredients</h3>
 <ul>
   <% @recipe.ingredient_list.each do |ingredient| %>
