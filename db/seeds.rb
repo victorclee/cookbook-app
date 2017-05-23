@@ -10,12 +10,12 @@
 #2 - favorite
 #3 - game
 
-Category.create!([
-                {category_id: 1, product_id: 2},
-                {category_id: 2, product_id: 3},
-                {category_id: 3, product_id: 14},
-                {category_id: 3, product_id: 15},
-                {category_id: 2, product_id: 1},
-                {category_id: 1, product_id: 3}
-                ])
+# Category.create!([
+#                 {category_id: 1, product_id: 2},
+#                 {category_id: 2, product_id: 3},
+#                 {category_id: 3, product_id: 14},
+#                 {category_id: 3, product_id: 15},
+#                 {category_id: 2, product_id: 1},
+#                 {category_id: 1, product_id: 3}
+#                 ])
 
